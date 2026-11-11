@@ -1,0 +1,24 @@
+WEBSITE SECURITY REPORT
+==================================================
+Scan Date : 2026-11-05 13:04:17.917953
+Website   : https://google.com
+Score     : 50
+Rating    : Needs Improvement
+
+SSL DETAILS
+{'issuer': 'Google Trust Services', 'valid_from': datetime.datetime(2026, 10, 7, 19, 7, 42), 'valid_to': datetime.datetime(2026, 12, 30, 19, 7, 41), 'days_remaining': 55, 'status': 'Valid'}
+
+HEADERS
+Strict-Transport-Security: Missing
+Content-Security-Policy: Missing
+X-Frame-Options: Present
+X-Content-Type-Options: Missing
+Referrer-Policy: Missing
+Permissions-Policy: Missing
+
+RECOMMENDATIONS
+- Enable HSTS header.
+- Implement CSP to reduce XSS risk.
+- Enable X-Content-Type-Options.
+- Add Referrer-Policy header.
+- Add Permissions-Policy header.

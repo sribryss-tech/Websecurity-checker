@@ -1,0 +1,24 @@
+WEBSITE SECURITY REPORT
+==================================================
+Scan Date : 2026-11-04 23:47:55.028425
+Website   : https://zoom.com
+Score     : 50
+Rating    : Needs Improvement
+
+SSL DETAILS
+{'issuer': 'DigiCert Inc', 'valid_from': datetime.datetime(2026, 5, 23, 0, 0), 'valid_to': datetime.datetime(2026, 11, 21, 23, 59, 59), 'days_remaining': 17, 'status': 'Valid'}
+
+HEADERS
+Strict-Transport-Security: Present
+Content-Security-Policy: Missing
+X-Frame-Options: Missing
+X-Content-Type-Options: Missing
+Referrer-Policy: Missing
+Permissions-Policy: Missing
+
+RECOMMENDATIONS
+- Implement CSP to reduce XSS risk.
+- Enable X-Frame-Options to prevent clickjacking.
+- Enable X-Content-Type-Options.
+- Add Referrer-Policy header.
+- Add Permissions-Policy header.

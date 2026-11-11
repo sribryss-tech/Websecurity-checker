@@ -1,0 +1,19 @@
+WEBSITE SECURITY REPORT
+==================================================
+Scan Date : 2026-11-05 14:46:48.467052
+Website   : https://github.com
+Score     : 20
+Rating    : Needs Improvement
+
+SSL DETAILS
+{'error': '[Errno 11001] getaddrinfo failed'}
+
+HEADERS
+Strict-Transport-Security: Error
+Content-Security-Policy: Error
+X-Frame-Options: Error
+X-Content-Type-Options: Error
+Referrer-Policy: Error
+Permissions-Policy: Error
+
+RECOMMENDATIONS
